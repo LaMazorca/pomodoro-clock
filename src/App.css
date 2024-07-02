@@ -1,0 +1,59 @@
+:root {
+  font-size: 62.5%;
+  --guardsman-red-50: #fff0f0;
+  --guardsman-red-100: #ffdddd;
+  --guardsman-red-200: #ffc0c0;
+  --guardsman-red-300: #ff9595;
+  --guardsman-red-400: #ff5858;
+  --guardsman-red-500: #ff2424;
+  --guardsman-red-600: #fe0404;
+  --guardsman-red-700: #d60000;
+  --guardsman-red-800: #bf0404;
+  --guardsman-red-900: #910b0b;
+  --guardsman-red-950: #500000;
+}
+
+.clock {
+  max-width: 70rem;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.setters {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+button {
+  margin: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--guardsman-red-500);
+  color: var(--guardsman-red-100);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: var(--guardsman-red-700);
+}
+
+h4 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+span {
+  font-size: 2.4rem;
+}
+
+.display {
+  text-align: center;
+  margin-top: 2rem;
+}
